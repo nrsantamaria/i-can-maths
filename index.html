@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Facts</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Side Calculator</h1>
+
+      <p>To find out what type of triangle you have, please tell us each of the sides length.</p>
+
+      <form id="triangle">
+        <input id="side1" type="text" placeholder="length of side 1" required>
+        <input id="side2" type="text" placeholder="length of side 2" required>
+        <input id="side3" type="text" placeholder="length of side 3" required>
+
+
+
+        <button type="submit" class="btn">Calculate my quote</button>
+      </form>
+      <h1 class="answer" id="equal">Equilateral: All sides are equal.</h1>
+      <h1 class="answer" id="iso">Isosceles: Exactly 2 sides are equal.</h1>
+      <h1 class="answer" id="scal">Scalene: No sides are equal.</h1>
+      <h1 class="answer" id="not">NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side.</h1>
+
+    </div>
+  </body>
+</html>
