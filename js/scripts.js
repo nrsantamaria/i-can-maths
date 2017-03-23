@@ -8,14 +8,14 @@ $(document).ready(function() {
 
       if (side1 === side2 && side2 === side3) {
       $("#equal").show();
-    } else if (side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2){
+    } else if (side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2) {
       $("#not").show();
-    } else if (side1 === side2 && side2 != side3 || side1 === side3 && side1 != side2 || side2 === side3 && side2 != side1) {
+    } else if (side1 === side2 || side1 === side3 || side2 === side3) {
       $("#iso").show();
-    } else if (side1 != side2 && side2 != side3 && side1 != side3){
+    } else {
       $("#scal").show();
     }
-  this.reset();
+    this.reset();
     event.preventDefault();
   });
 });
