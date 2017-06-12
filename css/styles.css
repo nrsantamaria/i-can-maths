@@ -3,13 +3,16 @@
 }
 
 .jumbotron {
-  padding-bottom: 2px;
+  padding-bottom: 0 !important;
 }
 
-img {
-  width: 500px;
+#mathematical {
+  height: 300px;
 }
 
+#github {
+  width: 100px;
+}
 h1, p, footer {
   text-align: center;
 }
