@@ -1,3 +1,15 @@
 .answer {
   display: none;
 }
+
+.jumbotron {
+  padding-bottom: 2px;
+}
+
+img {
+  width: 500px;
+}
+
+h1, p, footer {
+  text-align: center;
+}
